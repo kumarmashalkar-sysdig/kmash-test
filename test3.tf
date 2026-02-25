@@ -1,4 +1,4 @@
-resource "google_compute_ssl_policy" "kmash_tls" {
+resource " google_compute_ssl_policy" "kmash_tls" {
   name            = "kmash-tls"
   profile         = "MODERN"
   min_tls_version = "TLS_1_2"
